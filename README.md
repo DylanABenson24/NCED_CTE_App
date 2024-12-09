@@ -1,6 +1,8 @@
 # NCED: CTE Data Application📚
 This app explores county-level data on student enrollment in North Carolina's Education System (NCED), with a focus on Career and Technical Education (CTE) programs. It provides insights into the diversity of career clusters across counties and tracks employment projections from 2021 to 2030.
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://localhost:8502/)
+
 ## 🎯Key features
 
 ### Scatter Plot of CTE Data:

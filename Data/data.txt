@@ -1,2 +1,2 @@
-- ACTUAL_FINAL.csv (Merged CTE Data)
+- ACTUAL_FINAL.csv
 - Employment Projections - 2-digit (Super-industry).xlsx

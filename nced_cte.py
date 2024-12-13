@@ -77,7 +77,8 @@ def cte_analysis():
     
     # Load the dataset
     try:
-        cte_df = pd.read_csv('ACTUAL_FINAL.csv')
+        cte_df = pd.read_csv('data/ACTUAL_FINAL.csv')
+        #  cte_df = pd.read_csv('ACTUAL_FINAL.csv')
     except Exception as e:
         st.error(f"Error loading CTE enrollment data: {e}")
         return
@@ -152,8 +153,12 @@ def cte_analysis():
     st.subheader("Employment Projections (2021 vs 2030)")
 
     try:
-        projections_df = pd.read_excel(
-            r"C:\Users\dylan\DSBA 5122\NCED CTE Final\Employment Projections - 2-digit (Super-industry).xlsx",
+        # projections_df = pd.read_excel(
+        #     r"C:\Users\dylan\DSBA 5122\NCED CTE Final\Employment Projections - 2-digit (Super-industry).xlsx",
+        #     engine="openpyxl"
+        # )
+         projections_df = pd.read_excel(
+            r"data/Employment Projections - 2-digit (Super-industry).xlsx",
             engine="openpyxl"
         )
     except Exception as e:

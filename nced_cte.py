@@ -77,7 +77,7 @@ def cte_analysis():
     
     # Load the dataset
     try:
-        cte_df = pd.read_csv('data/ACTUAL_FINAL.csv')
+        cte_df = pd.read_csv('Data/ACTUAL_FINAL.csv')
         #  cte_df = pd.read_csv('ACTUAL_FINAL.csv')
     except Exception as e:
         st.error(f"Error loading CTE enrollment data: {e}")
@@ -158,7 +158,7 @@ def cte_analysis():
         #     engine="openpyxl"
         # )
          projections_df = pd.read_excel(
-            r"data/Employment Projections - 2-digit (Super-industry).xlsx",
+            r"Data/Employment Projections - 2-digit (Super-industry).xlsx",
             engine="openpyxl"
         )
     except Exception as e:
